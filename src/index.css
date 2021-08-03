@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ul{
+  padding: 0px;
+}
+li{
+  list-style-type: none;
+  padding-left: 0px;
+}
+.container{
+  display: flex;
+  /* flex-direction: row; */
+  /* grid-template-columns:1fr 6fr; 
+  grid-template-rows:2fr 3fr;  */
+}
+div{
+}
+.nav{
+  width:20vw;
+  height:95vh;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(209, 207, 207);
+  justify-content: center;
+  text-align: center;
+  margin: 2.5vh 2.5vw;
+}
+.nav-item{
+  margin:25px auto
+}
+.right{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  width:75vw;
+  align-content: flex-start;
+}
+
+.reviews, .ratings, .analysis{
+  width: 20vw;
+height: 30vh;
+background-color: rgb(209, 207, 207);
+margin: 2.5vh 2.5vh 0 0;
+padding:10px;
+}
+.visitors{
+  width:69vw;
+  height: 57.5vh;
+  background-color: rgb(209, 207, 207);
+  padding:10px;
+  margin: 2.5vh 2.5vh 0 0;
+
+}
